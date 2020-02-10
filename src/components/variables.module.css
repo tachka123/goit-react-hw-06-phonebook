@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 700px;
+  margin: 10px auto 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  padding: 20px 0;
+}
+
+button {
+  width: 100px;
+  transition: all 500ms ease-in;
+  color: darkblue;
+}
+
+button:hover {
+  scale: 1.2;
+}

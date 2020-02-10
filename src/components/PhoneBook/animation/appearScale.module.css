@@ -1,0 +1,30 @@
+.enter {
+  transform: scale(0);
+}
+
+.enterActive {
+  transform: scale(1.4);
+  transition: all ease 800ms;
+}
+.appear {
+  transform: scale(0);
+}
+
+.appearActive {
+  transform: scale(1.4);
+  transition: all ease 800ms;
+}
+
+.enterDone {
+  transform: scale(1);
+  transition: all ease 800ms;
+}
+
+.exit {
+  transform: scale(1);
+}
+
+.exitActive {
+  transform: scale(0);
+  transition: all ease 800ms;
+}

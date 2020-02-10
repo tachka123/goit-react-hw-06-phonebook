@@ -1,0 +1,32 @@
+.container {
+  max-width: 12vw;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 120px;
+  align-items: center;
+  text-align: center;
+  border-radius: 1vw;
+  -webkit-box-shadow: 0px 0px 8px 11px rgba(24, 56, 242, 1);
+  -moz-box-shadow: 0px 0px 8px 11px rgba(24, 56, 242, 1);
+  box-shadow: 0px 0px 8px 11px rgba(24, 56, 242, 1);
+}
+
+.container span {
+  display: block;
+  width: 100%;
+}
+
+.container button {
+  display: block;
+  color: white;
+  background-color: crimson;
+  border: solid 2px crimson;
+  border-radius: 1vw;
+  transition: all 0.7s;
+}
+
+.container button:hover {
+  background-color: red;
+  transform: scale(1.2);
+}
