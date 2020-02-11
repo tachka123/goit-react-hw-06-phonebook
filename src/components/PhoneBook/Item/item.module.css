@@ -1,5 +1,5 @@
 .container {
-  max-width: 12vw;
+  width: 15vw;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
