@@ -3,9 +3,14 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 45vw;
+  width: 100%;
+  min-width: 300px;
 }
 
 .container li {
   margin-bottom: 40px;
+}
+
+.container div {
+  width: 55%;
 }

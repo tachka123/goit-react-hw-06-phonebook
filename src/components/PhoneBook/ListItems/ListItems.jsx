@@ -13,10 +13,6 @@ const ListItems = ({ contacts, onDelete, filter }) => {
     onDelete: T.func.isRequired,
     filter: string.isRequired,
   };
-
-  if (contacts.length > 1)
-    localStorage.setItem('contacts', JSON.stringify(contacts));
-
   return (
     <ul className={Style.container}>
       <CSSTransition
@@ -28,7 +24,7 @@ const ListItems = ({ contacts, onDelete, filter }) => {
         {!filter.length ? (
           <TransitionGroup>
             {contacts.map(item => (
-              <CSSTransition appear classNames={anim2} timeout={800} key={v1()}>
+              <CSSTransition classNames={anim2} timeout={800} key={v1()}>
                 <Item props={item} onDelete={onDelete} />
               </CSSTransition>
             ))}
